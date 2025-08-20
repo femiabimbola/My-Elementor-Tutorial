@@ -17,3 +17,13 @@ Copy and pass this code to the custom header
 
 Then set the sticky effect to top and set the <b>_effect offset to 100_</b> <br/>
 Put the CSS classes as <b>sticky-menu</b>
+
+- The background shadow
+
+```css
+.elementor-sticky--effects {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+```
+
+Put the CSS classes as <b>header</b>
